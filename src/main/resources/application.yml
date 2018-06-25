@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192/168.1.15/sell?characterEncoding=utf-8&useSSl=false
+  jpa:
+    show-sql: true
+server:
+  servlet:
+    context-path: /sell
+#logging:
+ # pattern:
+  #  console: "%d - %msg%n"
+  #path: ${user.dir}/logs
+  #file: ${user.dir}/logs/sell.log
+  #level:
+   # com.sell.sell.LoggerTest: debug
+
