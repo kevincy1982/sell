@@ -5,7 +5,8 @@ import lombok.Getter;
 @Getter
 public enum  PayStatusEnum {
     PAYED(1, "payed"),
-    UNPAYED(0,"unpaied")
+    UNPAYED(0,"unpaied"),
+    WAIT(2,"wait")
     ;
 
     private Integer code;

@@ -20,7 +20,7 @@ import java.util.List;
 public class ProductInfoServiceImplTest {
 
     @Autowired
-    ProductInfoServiceImpl productService;
+    ProductServiceImpl productService;
 
     @Test
     public void findOne() {
